@@ -1,0 +1,40 @@
+# ─── System / Mac OS Files ────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# ─── Node Dependencies ────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# ─── Configuration Locks (Optional, keep if team relies on lock consistency)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ─── Environment & Secrets (CRITICAL: NEVER COMMIT THESE) ──────
+.env
+.env.local
+frontend/.env
+backend/.env
+*.env
+
+# ─── Production Builds & Bundles ──────────────────────────────
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# ─── Cache & Log Files ────────────────────────────────────────
+.vite/
+.eslintcache
+.prettiercache
+*.log
+npm-debug.log*
+
+# ─── IDE & Text Editor Configs ────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
